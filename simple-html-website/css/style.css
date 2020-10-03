@@ -7,7 +7,7 @@ body {
 
 
 nav {
-  background-color: #C9BEA7;
+  background-color: #C7BCA3;
 }
 nav:after {
   content: '';
@@ -52,7 +52,7 @@ nav:after {
 
 h1 {
   font-family: "Comic Sans MS", cursive, sans-serif;
-  color: #274163;
+  color: #591124;
 }
 
 /* Background Image by Natalia Campbell. I took it during Photography class, and I still have the original RAW file. */
@@ -76,7 +76,7 @@ header {
   text-decoration: none;
   display: inline-block;
   padding: 10px 25px;
-  border: 1px solid #274163;
+  border: 1px solid #8C030E;
 }
 
 .btn-home {
@@ -86,8 +86,8 @@ header {
 }
 
 .btn-home:hover {
-  background-color: #C9BEA7;
-  color: #274163;
+  background-color: #C7BCA3;
+  color: #8C030E;
   transition: 0.5s ease;
 }
 
@@ -97,8 +97,8 @@ header {
 }
 
 .btn-notes:hover {
-  background-color: #C9BEA7;
-  color: #274163;
+  background-color: #C7BCA3;
+  color: #8C030E;
   transition: 0.5s ease;
 }
 
@@ -124,9 +124,8 @@ header {
 }
 
 .what {
-  color: #40250D;
   text-transform: uppercase;
-  color: #40250D;
+  color: #591124;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   padding-right: 600px;
 }
@@ -147,7 +146,7 @@ header {
 /* HOBBIES SECTION */
 
 .hobbies {
-  background-color: #C9BEA7;
+  background-color: #C7BCA3;
   display: inline-block;
 }
 
@@ -159,7 +158,7 @@ width: 100%;
 }
 
 .footer {
-  background-color: #C9BEA7;
+  background-color: #C7BCA3;
   display: inline-block;
   margin: 20px;
   font-family: "Comic Sans MS", cursive, sans-serif;
@@ -169,7 +168,7 @@ width: 100%;
 .hobbies {
   margin: 0px;
   display: inline-block;
-  background-color: #C9BEA7;
+  background-color: #C7BCA3;
   width: 100%;
   margin: 0 auto;
 }
@@ -181,7 +180,7 @@ width: 100%;
 }
 
 h3 {
-  color: #274163;
+  color: #591124;
   padding-left: 500px;
 }
 
@@ -196,7 +195,7 @@ li {
 footer {
   margin: 0px;
   display: inline-block;
-  background-color: #C9BEA7;
+  background-color: #C7BCA3;
   font-size: 14px;
   width: 100%;
   margin: 0 auto;
@@ -210,7 +209,7 @@ dt {
   text-decoration: underline;
   padding: 5px;
   padding-bottom: 10px;
-  color: #40250D;
+  color: #591124;
   padding-left: 650px;
 }
 dd {
