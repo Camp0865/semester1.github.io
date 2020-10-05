@@ -3,6 +3,13 @@
 body {
   margin: 0px;
 }
+
+/* GLOBALLY APPLIED CODE */
+
+.color-1 {
+  color: #8C030E;
+}
+
 /* NAVIGATION SECTION */
 
 
@@ -215,5 +222,5 @@ dt {
 dd {
   margin: 0;
   padding-right: 100px;
-  padding-left: 650px;
+  padding-left: 670px;
 }
