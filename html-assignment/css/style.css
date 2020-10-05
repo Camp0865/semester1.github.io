@@ -1,0 +1,226 @@
+/* BODY SECTION */
+
+body {
+  margin: 0px;
+}
+
+/* GLOBALLY APPLIED CODE */
+
+.color-1 {
+  color: #8C030E;
+}
+
+/* NAVIGATION SECTION */
+
+
+nav {
+  background-color: #C7BCA3;
+}
+nav:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+ .logo {
+   margin: 20px;
+   font-family: "Comic Sans MS", cursive, sans-serif;
+ }
+
+ .logo, .menu { 
+ display: inline-block;
+ }
+ .menu {
+   float: right;
+   margin: 20px;
+ }
+
+.menu ul {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+.menu ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.menu ul li a {
+  text-decoration: none;
+  padding: 20px 10px 20px 10px;
+  color: black;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.menu ul li a:hover {
+  background-color: white;
+  color: #40250D;
+  transition: all 0.5s ease;
+}
+
+/* HEADER SECTION */
+
+h1 {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #591124;
+}
+
+/* Background Image by Natalia Campbell. I took it during Photography class, and I still have the original RAW file. */
+
+header {
+  background-image: url(../images/cake.jpeg);
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding-top: 150px;
+  font-size: 20px;
+}
+
+.btn-home, .btn-notes {
+  font-weight: bold;
+  border-radius: 20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 25px;
+  border: 1px solid #8C030E;
+}
+
+.btn-home {
+  background-color: white;
+  color: #40250D;
+  margin: 15px 10px;
+}
+
+.btn-home:hover {
+  background-color: #C7BCA3;
+  color: #8C030E;
+  transition: 0.5s ease;
+}
+
+.btn-notes {
+  background-color: white;
+  color: #40250D;
+}
+
+.btn-notes:hover {
+  background-color: #C7BCA3;
+  color: #8C030E;
+  transition: 0.5s ease;
+}
+
+/* ABOUT ME SECTION */
+
+.about-me h2 {
+  color: #40250D;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.col-left img {
+  height: 400px;
+  float: left;
+  padding-left: 200px;
+  padding-right: 150px;
+}
+
+.col-right {
+  margin: 0px;
+  padding-right: 200px;
+}
+
+.what {
+  text-transform: uppercase;
+  color: #591124;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding-right: 600px;
+}
+
+.font-style {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.font-2 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.text-col {
+  padding-left: 200px;
+  float: right;
+}
+
+/* HOBBIES SECTION */
+
+.hobbies {
+  background-color: #C7BCA3;
+  display: inline-block;
+}
+
+.hobbies:after {
+  content: '';
+display: block;
+clear: both;
+width: 100%;
+}
+
+.footer {
+  background-color: #C7BCA3;
+  display: inline-block;
+  margin: 20px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 10px;
+}
+
+.hobbies {
+  margin: 0px;
+  display: inline-block;
+  background-color: #C7BCA3;
+  width: 100%;
+  margin: 0 auto;
+}
+.hobbies:after {
+  content: '';
+  display: block;
+  clear: both;
+  margin: 0%;
+}
+
+h3 {
+  color: #591124;
+  padding-left: 500px;
+}
+
+ul {
+  padding-left: 500px;
+}
+
+li {
+  font-weight: bold;
+}
+
+footer {
+  margin: 0px;
+  display: inline-block;
+  background-color: #C7BCA3;
+  font-size: 14px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* NOTES LIST */
+
+dt {
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 5px;
+  padding-bottom: 10px;
+  color: #591124;
+  padding-left: 650px;
+}
+dd {
+  margin: 0;
+  padding-right: 100px;
+  padding-left: 670px;
+}
