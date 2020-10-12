@@ -154,7 +154,7 @@ background-clip: content-box, border-box;
 
 .picture img, 
 .picture-h img{
-  width: 100%;
+  height: 500px
  
 }
 
