@@ -4,80 +4,79 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Natalia Campbell - Home</title>
-<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-  <!-- NAVIGATION BAR SECTION -->
+ <!-- NAVIGATION BAR SECTION -->
+
+<!-- The colours are not the best, but I wasn't really trying to find gradient colours that worked well with the design. I was just trying to find a basic starting gradient to see if I could get the CSS to work, first. So... sorry it's kind of ugly again! Haha! xD -->
+
   <nav>
-    <div class="logo">Natalia Campbell &lt;040909851&gt;</div>
+  <div class="container">
     <div class="menu">
       <ul>
+        <li class="logo">
+          Natalia Campbell
+        </li>
         <li>
-          <a href="index.html">Home</a>
+          <a class="active" href="index.html">Home</a>
         </li>
         <li>
           <a href="notes.html">Notes</a>
         </li>
+        <li>
+          <a href="hobbies.html">
+            Hobbies
+          </a>
+        </li>
+        <li>
+          <a href="index.html" class= "ref">
+            <span>
+              Refresh Page
+            </span>
+          </a>
+        </li>
       </ul>
     </div>
-  </nav>
+    </nav>
 
-<!-- HEADER SECTION -->
+ <!-- HEADER SECTION -->
 
-<header>
-  <div class="container">
-   <h1>About Me</h1>
-   <a class="btn-home" href="index.html">HOME</a>
-   <a class="btn-notes" href="notes.html">NOTES</a>
-  </div>
-</header>
-
-<!-- ABOUT ME SECTION -->
-
-<div class="about-me">
-   <h2>my story</h2>
-   <div class="col-left">
-     <img src="images/me.jpeg" alt="Natalia Campbell standing in her bathroom with a red hoodie on.">
-   </div>
-   <div class="col-right">
-    <p class="font-style">
-      Hey there! My name is <strong><span class="color-1"> Natalia Campbell</span></strong>, and I'm a first year Interactive Media Design student. However, I wasn't always an IMD student! I started off with <strong><span class="color-1">Pre-Animation and Illustration.</span></strong> I earned my cirtificate in <abbr class="color-1" title="Pre-Animation and Illustration">PAI</abbr> and won my seat into the Animation program by being one of the top five GPA students for my entire year. I immediately went into Animation, and at first, everything went wonderfullly! I was on the top five GPA list again. It looked like everything was going smoothly- until it suddenly <em>wasn't.</em>
-   </p>
-    <h4 class="what">What happened?</h4>
+    <header class= "site-title">
+         <h1>About Me</h1>
+    </header>
+   
+   <!-- PAGE CONTENT -->
+        <div class="main-section">
+        <div class="content">
+        <p>
+          Hey there! My name is <strong><span class="color-1"> Natalia Campbell</span></strong>, and I'm a first year Interactive Media Design student. However, I wasn't always an IMD student! I started off with <strong><span class="color-1">Pre-Animation and Illustration.</span></strong> I earned my cirtificate in <abbr class="color-1" title="Pre-Animation and Illustration">PAI</abbr> and won my seat into the Animation program by being one of the top five GPA students for my entire year. I immediately went into Animation, and at first, everything went wonderfullly! I was on the top five GPA list again. It looked like everything was going smoothly- until it suddenly <em>wasn't.</em>
+        </p>
+        <h4 class="what">What happened?</h4>
    <blockquote class="font-2">
       <span class="color-1"><strong>"I don't know, man, I just work here."</span></strong> -<cite><sub>Damien Wilson</sub></cite>
    </blockquote>
-   <p class="font-style">
+   <p>
        I jest! What actually happened was this- I got very sick, very quickly. My plans for college were immediately thrown off. I was forced to withdraw due to spending more time in the hospital than out. I have since spent almost 3 years struggling with a neurological disorder that effects my vision and my hands. I attempted to go back into animation one more time, but then covid hit and the loss of my special accommodations made me unable to continue that semester, too. Ultimately, I had a difficult decision to make- if I couldn't handle the schoolwork without special accommodations, then how was I supposed to be able to handle a career, which had far heavier workloads than just the college courses?
    </p>
-   <h3 class="font-2">The answer was that I <em>couldn't.</em></h3>
-   <div class="text-col">
-    <p class="font-style">
+   <h3 class="color-1">The answer was that I <em>couldn't.</em></h3>
+    <p>
       Not because I'd given up or I simply didn't do the work, but because I was physically incapable of continuing the animation program due to my chronic neurological disorder. So, what was I to do? Well, I searched through the program list and found something that worked as a sort of happy medium. I could work with graphics, websites, digital content, and even video editing! The best part? I can do these things from home or sitting down very easily. Animation is far more laborious than one might think- and it's easier for me to type/ edit videos with my hands the way they are than it is to accurately and quickly animate by hand. And to my utter shock, it turns out I've worked with HTML and some CSS before.  
    </p>
-   <p class="font-style">
+   <p>
       Thanks, years of forum writing and online roleplay, where I would use HTML to code my posts and make them look pretty! :)  Also, special thanks to the roleplaying blogs I had where I would adjust the themes to make the page functional and nice to look at. :'D Anyways, thanks for taking the time to read through my story! I hope you're having a wonderful, safe day.
    </p>
-   </div>
-   </div>
- </div>
-
- <div class="hobbies">
-   <div class="list">
-    <h3>My Hobbies</h3>
-    <ul>
-       <li>Traditional Hand Drawn Animation</li>
-       <li>Creative Writing</li>
-       <li>Video Gaming</li>
-       <li>3D Asset Sculpting</li>
-    </ul>
-   </div>
- </div>
+      </div>
+    </div>
+  <div class="picture">
+    <img id="my-image" src="images/me.jpeg" alt="Picture of me in a red hoodie">
+  </div>
+  <div class="copy">
     <footer>
-      <em>Copyright &copy; <strong><span class="color-1"> Natalia Campbell</span></strong>, September 16<sup>th</sup>, 2020.</em>
+       <em>Copyright &copy; <strong><span class="color-1"> Natalia Campbell</span></strong>, September 16<sup>th</sup>, 2020.</em>
     </footer>
-
+  </div>
 </body>
 </html>
