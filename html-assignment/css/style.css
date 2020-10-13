@@ -76,7 +76,8 @@ background-clip: content-box, border-box;
   text-decoration: none;
   margin: 0 20px;
   cursor: pointer;
-
+  padding-top: 10px;
+  padding-bottom: 6px;
 }
 
 
@@ -87,14 +88,16 @@ background-clip: content-box, border-box;
   font-family: "Comic Sans MS", cursive, sans-serif;
   border: 1px solid white;
   border-radius: 20px;
-  padding: 2px;
+  padding: 7px;
+
 }
 
 .logo {
   color:  white;
-  padding-top: -7px;
+  padding-top: 0;
   padding-right: 48px;
   font-family: "Comic Sans MS", cursive, sans-serif;
+  border: 2px solid transparent
 }
 
 .active {
@@ -113,6 +116,7 @@ background-clip: content-box, border-box;
   background-clip: content-box, border-box;
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
 
 .ref span {
   display: block;
@@ -168,7 +172,7 @@ dt {
   font-weight: bold;
   text-decoration: underline;
   padding-left: 3%;
-  color: white;
+  color: #19d7f8;
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
 dd {
