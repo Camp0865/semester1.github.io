@@ -80,7 +80,6 @@ nav ul li a:visited {
 	font-size: 0.9rem;
 	text-transform: uppercase;
 	color: black;
-	font-weight: normal;
 	padding-left: 3.95rem;
 	padding-right: 3.95rem;
 	border-left: 0.5px solid black;
@@ -143,13 +142,12 @@ nav ul .no-b a {
 	font-size: 1.21rem;
 	padding-left: 0.35rem;
 	padding-bottom: 0.69rem;
-	font-weight: normal;
 }
 
 .content p {
-	font-size: 1rem;
-	line-height: 1rem;
-	padding-right: 0.6rem;
+	font-size: 0.8rem;
+	line-height: 1.2rem;
+	padding-right: 0.7rem;
 	padding-left: 0.35rem;
 }
 
@@ -159,26 +157,25 @@ nav ul .no-b a {
 	padding-left: 0.35rem;
 	padding-top: 1rem;
 	padding-bottom: 0.6rem;
-	font-size: 0.95rem;
+	font-size: 1rem;
 }
 
 .facts-list ul li{
 	font-size: 0.8rem;
 	margin: 0;
-	padding-left: 0;
 }
 
 .facts-list {
-	padding-left: 1.2rem;
+	padding-left: 1.5rem;
 }
 
 /* CONTACT SECTION */
 
 .contact {
-	padding-top: 1rem;
+	padding-top: 0.8rem;
 	padding-bottom: 0.5rem;
 	padding-left: 0.35rem;
-	font-size: 0.95rem;
+	font-size: 1rem;
 }
 
 .cont-2 {
@@ -196,14 +193,14 @@ nav ul .no-b a {
 input[type=text] {
 	width: 97%;
 	margin: 8px 0;
-	display: inline-block;
+	display: block;
 	cursor: pointer;
 }
 
 input[type=email] {
 	width: 97%;
 	margin: 8px 0;
-	display: inline-block;
+	display: block;
 	cursor: pointer;
 }
 
@@ -211,7 +208,7 @@ textarea {
 	width: 97%;
 	padding-bottom: 1.85rem;
 	margin: 8px 0;
-	display: inline-block;
+	display: block;
 	cursor: pointer;
 	border: 0.5px solid gray;
 }
@@ -228,7 +225,7 @@ input[type=radio] {
 button[type=submit] {
 	margin-top: 0.5rem;
 	margin-bottom: 0.5rem;
-	font-size: 0.7rem;
+	font-size: 0.5rem;
 	color: black;
 	background-color: #D4E9E7;
 	border-style: none;
