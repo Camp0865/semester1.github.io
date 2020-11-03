@@ -50,7 +50,7 @@ table {
 body {
 	background-color: #AAD4CF;
 	font-size: 11px;
-	font-family: sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 /* NAVIGATION */
@@ -77,11 +77,11 @@ nav ul li a:visited {
 	text-decoration: none;
 	text-align: center;
 	margin: 0 auto;
-	font-size: 0.9rem;
+	font-size: 1.21rem;
 	text-transform: uppercase;
 	color: black;
-	padding-left: 3.95rem;
-	padding-right: 3.95rem;
+	padding-left: 10rem;
+	padding-right: 10rem;
 	border-left: 0.5px solid black;
 	padding-top: 0.3rem;
 	padding-bottom: 0.2rem;
@@ -113,10 +113,10 @@ nav ul .no-b a {
 
 .lone {
 	position: absolute;
-	top: 68%;
+	top: 67%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 2.2rem;
+	font-size: 4.5rem;
 	color: white;
 }
 
@@ -146,8 +146,8 @@ nav ul .no-b a {
 
 .content p {
 	font-size: 0.8rem;
-	line-height: 1.2rem;
-	padding-right: 0.7rem;
+	line-height: 1.3rem;
+	padding-right: 2rem;
 	padding-left: 0.35rem;
 }
 
