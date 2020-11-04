@@ -77,13 +77,13 @@ nav ul li a:visited {
 	text-decoration: none;
 	text-align: center;
 	margin: 0 auto;
-	font-size: 1.21rem;
+	font-size: 1.6rem;
 	text-transform: uppercase;
 	color: black;
-	padding-left: 10rem;
-	padding-right: 10rem;
+	padding-left: 9rem;
+	padding-right: 9rem;
 	border-left: 0.5px solid black;
-	padding-top: 0.3rem;
+	padding-top: 0.5rem;
 	padding-bottom: 0.2rem;
 }
 
@@ -91,7 +91,7 @@ nav ul li a:hover,
 nav ul li a:focus {
 background-color:black;
 color:white;
-transition: all 1s;}
+transition: all 0.5s;}
 
 
 nav ul .no-b a {
@@ -131,51 +131,52 @@ nav ul .no-b a {
 }
 
 .image-2 img {
-	width: 8.5rem;
-	padding-left: 0.35rem;
-	padding-right: 0.8rem;
-	padding-bottom: 0.97rem;
+	width: 18rem;
+	padding-left: 0.8rem;
+	padding-right: 1.5rem;
+	padding-bottom: 1.4rem;
 	float: left;
 }
 
 .life {
-	font-size: 1.21rem;
-	padding-left: 0.35rem;
+	font-size: 2.5rem;
+	padding-top: 1.5rem;
+	padding-left: 0.8rem;
 	padding-bottom: 0.69rem;
 }
 
 .content p {
-	font-size: 0.8rem;
-	line-height: 1.3rem;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
 	padding-right: 2rem;
-	padding-left: 0.35rem;
+	padding-left: 0.8rem;
 }
 
 /* FACTS SECTION */
 
 .facts {
-	padding-left: 0.35rem;
-	padding-top: 1rem;
-	padding-bottom: 0.6rem;
-	font-size: 1rem;
+	padding-left: 0.8rem;
+	padding-top: 1.8rem;
+	padding-bottom: 1.4rem;
+	font-size: 2rem;
 }
 
 .facts-list ul li{
-	font-size: 0.8rem;
+	font-size: 1.05rem;
 	margin: 0;
 }
 
 .facts-list {
-	padding-left: 1.5rem;
+	padding-left: 2rem;
 }
 
 /* CONTACT SECTION */
 
 .contact {
-	padding-top: 0.8rem;
-	padding-bottom: 0.5rem;
-	padding-left: 0.35rem;
-	font-size: 1rem;
+	padding-top: 1.4rem;
+	padding-bottom: 0.8rem;
+	padding-left: 0.8rem;
+	font-size: 2rem;
 }
 
 .cont-2 {
@@ -187,7 +188,7 @@ nav ul .no-b a {
 
 .form {
  padding-left: 0.7rem;
- padding-top: 1rem;
+ padding-top: 1.5rem;
 }
 
 input[type=text] {
@@ -214,25 +215,27 @@ textarea {
 }
 
 .starfish {
-	font-size: 0.8rem;
+	font-size: 1.5rem;
 	padding-bottom: 1rem;
 }
 
 input[type=radio] {
-	font-size: 0.2rem;
+	font-size: 1.5rem;
+	cursor: pointer;
 }
 
 button[type=submit] {
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
-	font-size: 0.5rem;
+	margin-top: 0.8rem;
+	margin-bottom: 0.8rem;
+	font-size: 0.6rem;
 	color: black;
 	background-color: #D4E9E7;
 	border-style: none;
 	border: 0.5px solid black;
 	text-transform: uppercase;
-	padding: 0.4rem;
+	padding: 0.5rem;
 	font-weight: 100;
+	cursor: pointer;
 }
 
 /* FOOTER */
