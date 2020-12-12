@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* BEGINNING OF CUSTOM CODE */
+
+
+/* GLOBALLY APPLIED CODE */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 1200;
+	background-color: white;
+	font-size: 15px;
+}
+
+/* NAVIAGTION SECTION */
+
+nav {
+	background-color: #222;
+	
+}
+
+/* LOGO IMAGE CODE */
+
+.logo {
+	width: 9rem;
+}
+
+
+
+
+
+/* Spaces and comments to help you find the code easier, spaces will be deleted when it's done ; u; */
+
+
+
+
+/* This part of the code, Jay ; u; */
+
+.nav {
+	display: flex;
+	/* HERE, ABOVE THE thing omg?? Like, I have tried everything udner the sun, not width changing or reset properties do the thing. ; n; */
+	width: 95%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+nav .nav {
+	justify-content: center;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: #c78c06;
+}
+
+nav ul li {
+	padding: 3%;
+}
+
+.active {
+	background-color: #c78c06;
+}
+
+.active a {
+	color: #222;
+}
+
+ul li:nth-child(1) {
+	background-color: #c78c06;
+	text-align: left;
+	padding-top: 3%;
+	padding-bottom: 3%
+}
+
+/* NAV SEARCH BAR */
+
+input {
+	width: 100%; 
+	font-size: 1.5rem;
+	padding: 0.5px;
+}
