@@ -52,6 +52,10 @@ table {
 
 /* GLOBALLY APPLIED CODE */
 
+* {
+	box-sizing: border-box;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   max-width: 1200;
@@ -63,29 +67,17 @@ body {
 
 nav {
 	background-color: #222;
+	padding-bottom: 3.5rem;
 	
 }
 
 /* LOGO IMAGE CODE */
 
 .logo {
-	width: 9rem;
+	width: 6rem;
 }
 
-
-
-
-
-/* Spaces and comments to help you find the code easier, spaces will be deleted when it's done ; u; */
-
-
-
-
-/* This part of the code, Jay ; u; */
-
 .nav {
-	display: flex;
-	/* HERE, ABOVE THE thing omg?? Like, I have tried everything udner the sun, not width changing or reset properties do the thing. ; n; */
 	width: 95%;
 	margin: 0 auto;
 	text-align: center;
@@ -97,8 +89,9 @@ nav .nav {
 
 nav ul li a {
 	text-decoration: none;
-	font-size: 1.5rem;
+	font-size: 1.1rem;
 	color: #c78c06;
+	cursor: pointer;
 }
 
 nav ul li {
@@ -123,7 +116,92 @@ ul li:nth-child(1) {
 /* NAV SEARCH BAR */
 
 input {
-	width: 100%; 
-	font-size: 1.5rem;
-	padding: 0.5px;
+  padding: .6rem;
+  font-size: 1rem;
+  border: 1px solid grey;
+  float: left;
+  width: 94%;
+	background: #f1f1f1;
+	color: #222;
+
 }
+
+.fa-search {
+	color: #c78c06;
+	background-color: #222;
+	margin: 0;
+	font-size: 1.3rem;
+	padding-bottom: 0.49rem;
+	padding-top: 0.2rem;
+}
+
+.button {
+  float: left;
+  width: 6%;
+  background: #222;
+  font-size: 1rem;
+  border: 1px solid #c78c06;
+  cursor: pointer;
+}
+
+/* BANNER SECTION */
+
+
+.banner-bg {
+	background-image: url("../images/main-banner.jpg") ;
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-position: 55% 55%;
+  background-size: cover;
+	margin: 0;
+	padding-top: 8%;
+	padding-bottom: 10%;
+}
+
+  .banner {
+	margin: 0 auto;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	color: white;
+	padding-top: 3%;
+	padding-bottom: 10%;
+
+	padding-left: 3%;
+}
+
+.banner a {
+	text-decoration: none;
+
+}
+
+.banner .btn {
+	border: 2px solid red;
+	background-color: black;
+	margin-top: 5%;
+	padding: 5%;
+	color: white;
+}
+
+.click {
+	padding-right: 4%;
+}
+
+.welcome {
+	font-size: 4em;
+	color: white;
+	opacity: none;
+	font-weight: bold;
+	padding-bottom: 2rem;
+	line-height: 5rem;
+}
+
+div .banner p {
+	font-size: .8rem;
+}
+
+/* ABOUT US */
+
+.about-img {
+	width: 6rem
+}
+
