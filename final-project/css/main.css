@@ -569,9 +569,10 @@ footer .footer-cont a {
   nav .nav li {
 		display: flex;
 		flex-direction: row;
+
 	}
 
-/* GRID CARDS SECTION MEDIA QUERY*/
+/* GRID CARDS SECTION ORIGINAL CODE? But it didn't work. How would I go about fixing this, or why was it wrong in the first place?*/
 
 /*.cards {
 	display: grid;
