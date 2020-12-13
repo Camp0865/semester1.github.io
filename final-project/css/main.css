@@ -96,9 +96,6 @@ nav {
 	text-align: center;
 }
 
-nav .nav {
-	justify-content: center;
-}
 
 nav ul li a {
 	text-decoration: none;
@@ -212,7 +209,6 @@ padding: 4% 0% 5% 5%;
 .welcome {
 	font-size: 4em;
 	color: white;
-	opacity: none;
 	font-weight: bold;
 	padding-bottom: 2rem;
 	line-height: 5rem;
@@ -481,6 +477,7 @@ div .banner p {
 	font-size: 1.05rem;
 	padding: 0.7%;
 	margin-bottom: 4%;
+	cursor: pointer;
 }
 
 /* HOURS OF OPERATION */
@@ -522,6 +519,7 @@ td {
 
 .location {
 	background-color: white;
+	width: 100%;
 }
 
 .loc {
@@ -532,6 +530,46 @@ td {
 	font-weight: bold;
 }
 
+.map {
+	width: 95%;
+	margin: 2%;
+}
+
+
+/* FOOTER SECTION */
+
+footer {
+	background-color: #222;
+}
+
+.footer-cont {
+	color: #c78c06;
+	font-size: 0.7rem;
+	padding-top: 4%;
+}
+
+footer .footer-cont p {
+padding-left: 2%;
+padding-bottom: 3%;
+}
+
+footer .footer-cont a {
+	color: #c78c06;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+
+/* MDESKTOP MEDIA QUERY SECTION START*/
+
+/* NAVIGATION SECTION */
+
+@media screen and (min-width: 760px){
+  nav .nav li {
+		display: flex;
+		flex-direction: row;
+	}
 
 /* GRID CARDS SECTION MEDIA QUERY*/
 
@@ -565,5 +603,5 @@ td {
 }
 
 .cards .card:nth-child(5) {
-	grid-area: c5;
-}/*
+	grid-area: c5;} 
+	*/
