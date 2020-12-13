@@ -47,6 +47,18 @@ table {
 	border-spacing: 0;
 }
 
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+    line-height: inherit;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
 /* BEGINNING OF CUSTOM CODE */
 
 
@@ -54,11 +66,12 @@ table {
 
 * {
 	box-sizing: border-box;
+	text-decoration: none;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
-  max-width: 1200;
+  max-width: 1200px;
 	background-color: white;
 	font-size: 15px;
 }
@@ -92,6 +105,7 @@ nav ul li a {
 	font-size: 1.1rem;
 	color: #c78c06;
 	cursor: pointer;
+	transition: all 0.5s;
 }
 
 nav ul li {
@@ -164,27 +178,36 @@ input {
 	background: rgba(0, 0, 0, 0.6);
 	color: white;
 	padding-top: 3%;
-	padding-bottom: 10%;
-
+	padding-bottom: 2%;
 	padding-left: 3%;
 }
 
+/* BUTTON STYLES */
+
 .banner a {
 	text-decoration: none;
+	margin-top: 6%;
+	font-size: 1rem;
 
 }
+
 
 .banner .btn {
-	border: 2px solid red;
-	background-color: black;
-	margin-top: 5%;
-	padding: 5%;
-	color: white;
+background-color: #c78c06;
+display: block;
+color: #222;
+width: 36%;
+padding: 4% 0% 5% 5%;
 }
 
-.click {
-	padding-right: 4%;
+.fas {
+	padding-left: 10%;
+	padding-right: 0%;
+	font-size: 1.8rem;
+	margin: 0;
 }
+
+/* CONTENT STYLES */
 
 .welcome {
 	font-size: 4em;
@@ -201,7 +224,192 @@ div .banner p {
 
 /* ABOUT US */
 
-.about-img {
-	width: 6rem
+.about-us-bg {
+	background-color: #ffe6ac;
 }
 
+.about-img {
+	width: 100%;
+	padding: 2%;
+	margin: 0 auto;
+}
+
+.about-us {
+	font-size: 0.7rem;
+	line-height: 1.2rem;
+}
+
+.about-us p{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding-left: 2%; 
+}
+
+.about-us :nth-child(3) {
+	padding-bottom: 3%;
+}
+
+.about {
+	font-weight: bold;
+	font-size: 2.2rem;
+	padding-left: 2%;
+	padding-top: 4%;
+	padding-bottom: 3%;
+}
+
+/* OUR SERVICES SECTION */
+
+.our-services-bg {
+	background-color: white;
+}
+
+.service {
+	font-size: 2.2rem;
+	font-weight: bold;
+	padding-top: 4%;
+	padding-bottom: 1%;
+	padding-left: 2%;
+}
+
+.card {
+	background-color: #ffe6ac;
+	padding-bottom: 0.3%;
+	margin: 2%;
+}
+
+.card img {
+	width: 100%;
+}
+
+.info {
+	font-size: 0.7rem;
+	line-height: 1rem;
+	padding-left: 2%;
+}
+
+.infoh {
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+
+.info .btn {
+ background-color: #222;
+ display: block;
+ color: white;
+ width: 34%;
+ padding: 4% 0% 5% 5%;
+ margin: 2%;
+}
+
+/* MARKETING BUTTON */
+
+.info .mkt-btn  {
+	background-color: #222;
+	display: block;
+	color: white;
+	width: 39%;
+	padding: 4% 0% 5% 5%;
+	margin: 2%;
+	cursor: pointer;
+}
+
+.info a {
+	text-decoration: none;
+	margin-top: 2%;
+	font-size: 1rem;
+	cursor: pointer;
+
+}
+
+/* OUR VISION SECTIION */
+
+.our-vision-bg {
+	background-image: url("../images/vision.jpg") ;
+	background-repeat: no-repeat;
+	background-position: right; 
+	background-position: 70% 40%;
+	background-size: cover;
+	width:100%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding-bottom: 5%;
+}
+
+.vision {
+	font-size: 1.7rem;
+	font-weight: bold;
+	color: white;
+	padding-top: 7%;
+	
+}
+
+.our-vision {
+	color: white;
+	font-size: 0.7rem;
+	line-height: 1rem;
+	padding-left: 2%;
+}
+
+.our-vision p {
+	padding-top: 5%;
+	padding-right: 5%;
+}
+
+/* LEARN MORE BUTTON */
+
+.our-vision .btn {
+	background: rgba(0, 0, 0, 0.6);
+	display: block;
+	color: white;
+	border: 1px solid #c78c06;
+	width: 31%;
+	padding: 4% 0% 5% 5%;
+	margin: 2%;
+ }
+
+ .our-vision a {
+	 font-size: 1rem;
+ }
+
+
+/*  */
+
+
+
+/* GRID CARDS SECTION MEDIA QUERY*/
+
+/*.cards {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-areas: 
+	"t1   t1   t1"
+	"c1 c1 c1"
+	"c2 c2 c2"
+	"c3 c3 c3"
+	"c4 c4 c4"
+	"c5 c5 c5";
+}
+
+.cards .service:nth-child(1) {
+	grid-area: t1;
+}
+
+.cards .card:nth-child(2) {
+	grid-area: c1;
+}
+
+.cards .card:nth-child(3) {
+	grid-area: c2;
+}
+
+.cards .card:nth-child(4) {
+	grid-area: c3;
+}
+
+.cards .card:nth-child(5) {
+	grid-area: c5;
+}/*
