@@ -375,8 +375,162 @@ div .banner p {
  }
 
 
-/*  */
+/* OUR TEAM SECTION */
 
+.team {
+	font-size: 2.2rem;
+	font-weight: bold;
+	padding-bottom: 2%;
+	padding-left: 2%;
+}
+
+.our-team-bg {
+	background-color: white;
+	margin-bottom: 2%;
+	margin-top: 2%;
+}
+
+.our-team {
+	background-color: #ffe6ac;
+	margin: 2%;
+	font-size: 0.7rem;
+	line-height: 1rem;
+	padding-bottom: 4%;
+}
+.our-team p{
+	padding-left: 2%;
+	padding-right: 3%;
+	padding-top: 2%;
+}
+
+.john-img, .bob-img {
+	width: 100%;
+	padding-bottom: 1.5%;
+}
+
+.john, .bob {
+	font-size: 1.6rem;
+	font-weight: bold;
+	padding: 2%;
+}
+
+.ceo {
+	padding-left: 2%;
+	font-size: 0.75rem;
+	font-weight: bold;
+}
+
+.deco {
+	border-bottom: 1.8px solid #BF8211;
+	width: 96%;
+	margin-left: 2%;
+}
+
+/* CONTACT US SECTION */
+
+.contact-us-bg {
+	background-color: white;
+	width: 100%;
+}
+
+.contact {
+	margin-top: 13%;
+	padding-left: 2%;
+	font-size: 2.2rem;
+	font-weight: bold;
+	margin-bottom: 5.5%;
+}
+
+.us {
+	font-size: 1.55rem;
+	font-weight: bold;
+	padding-left: 2%;
+	margin-bottom: 3%;
+}
+
+.c-form {
+	width: 100%;
+	font-size: 0.7rem;
+}
+
+.c-form input, textarea {
+	width: 95%;
+	margin-left: 2%;
+	padding: .15rem;
+	background-color: white;
+	margin-bottom: 1.5%;
+}
+
+.c-form textarea {
+	padding: 10%;
+	margin-bottom: 2.5%
+}
+
+.c-form label {
+	display: block;
+	padding-left: 2%;
+	margin-bottom: 1%;
+	padding-top: 1%;
+}
+
+.send {
+	margin-left: 2%;
+	background-color: #222;
+	border: none;
+	color: #c78c06;
+	font-size: 1.05rem;
+	padding: 0.7%;
+	margin-bottom: 4%;
+}
+
+/* HOURS OF OPERATION */
+
+.hours-of {
+	background-color: white;
+	width: 100%;
+}
+
+.hours {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
+
+table {
+	width: 95%;
+	margin-left: 2%;
+}
+
+table, th, td {
+	border: 1px solid black;
+	font-size: 0.7rem;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+th {
+	background-color: #ffe6ac;
+	padding: 3%;
+}
+
+td {
+	padding: 3%;
+}
+
+/* LOCATION SECTION */
+
+.location {
+	background-color: white;
+}
+
+.loc {
+	margin-top: 3%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
 
 
 /* GRID CARDS SECTION MEDIA QUERY*/
