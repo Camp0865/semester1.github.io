@@ -742,6 +742,12 @@ text-align: center;
 	padding-right: 8%;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+	clear: both;
+}
+
 .about-us :nth-child(3) {
 	padding-bottom: 3%;
 	padding-right: 8%;
