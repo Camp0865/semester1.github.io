@@ -762,18 +762,18 @@ text-align: center;
 	padding-bottom: 3%;
 }
 
-	}
+/* OUR SERVICES GRID */
 
-/* GRID CARDS SECTION ORIGINAL CODE? But it didn't work. How would I go about fixing this, or why was it wrong in the first place?*/
 
-/*.cards {
+.cards {
 	display: grid;
+	margin: 0 auto;
 	grid-template-columns: repeat(6, auto);
 	grid-template-rows: repeat(3, auto);
 	grid-template-areas: 
 	"t1 t1 t1 t1 t1 t1"
-	"c1 c1 c1 c1 c1 c1"
-	"c2 c2 c2 c2 c2 c2";
+	"c1 c1 c1 c2 c2 c2"
+	"c3 c3 c4 c4 c5 c5";
 }
 
 .cards .service:nth-child(1) {
@@ -793,5 +793,10 @@ text-align: center;
 }
 
 .cards .card:nth-child(5) {
-	grid-area: c5;} 
+	grid-area: c4;}
+	}
+
+/* GRID CARDS SECTION ORIGINAL CODE? But it didn't work. How would I go about fixing this, or why was it wrong in the first place?*/
+
+/* 
 	*/
