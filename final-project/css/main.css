@@ -767,6 +767,7 @@ text-align: center;
 
 .cards {
 	display: grid;
+	width: 70%;
 	margin: 0 auto;
 	grid-template-columns: repeat(6, auto);
 	grid-template-rows: repeat(3, auto);
@@ -794,9 +795,141 @@ text-align: center;
 
 .cards .card:nth-child(5) {
 	grid-area: c4;}
+
+
+
+	/* OUR VISION  */
+
+.our-vision-bg {
+	background-image: url("../images/vision.jpg") ;
+	background-repeat: no-repeat;
+	background-position: right; 
+	background-position: 70% 40%;
+	background-size: cover;
+	width:100%;
+	margin-top: 5%;
+	margin-bottom: 3%;
+	padding-bottom: 2%;
+}
+
+.vision {
+	font-size: 1.4rem;
+	font-weight: bold;
+	color: white;
+	padding-top: 3%;
+	padding-left: 10%;
+	
+}
+
+.our-vision {
+	color: white;
+	font-size: 0.6rem;
+	line-height: 1rem;
+	padding-left: 2%;
+}
+
+.our-vision p {
+	padding-top: 2%;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+/* LEARN MORE BUTTON */
+
+.our-vision .btn {
+	background: rgba(0, 0, 0, 0.6);
+	display: block;
+	color: white;
+	border: 1px solid #c78c06;
+	width: 16%;
+	padding: 2% 2% 2.5% 2%;
+	margin: 1%;
+	margin-left: 10%;
+ }
+
+ .our-vision a {
+	 font-size: 0.85rem;
+	 margin: 0 auto;
+ }
+
+ .fas {
+	padding-left: 10%;
+	padding-right: 0%;
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+/* OUR TEAMS SECITON */
+
+.john-img, .bob-img {
+	width: 100%;
+}
+
+.teamc {
+	display: grid;
+	width: 85%;
+	margin: 0 auto;
+	grid-template-columns: repeat(3, auto);
+	grid-template-rows: repeat(2, auto);
+	grid-template-areas: 
+	"j1 j2 j2"
+	"b1 b2 b2 ";
+}
+
+.teamc .john-img:nth-child(1) {
+	grid-area: j1;
+}
+
+.teamc .john-doe:nth-child(2) {
+	grid-area: j2;
+}
+
+.teamc .bob-rite:nth-child(3) {
+	grid-area: b1;
+}
+
+.teamc .bob-img:nth-child(4) {
+	grid-area: b2;
+}
+
+/* CONTACT US SECTION */
+
+.contact {
+	margin-top: 5%;
+	margin-left: 6.5%;
+	font-size: 2.1rem;
+}
 	}
 
-/* GRID CARDS SECTION ORIGINAL CODE? But it didn't work. How would I go about fixing this, or why was it wrong in the first place?*/
+	.teamc {
+		display: grid;
+		width: 85%;
+		margin: 0 auto;
+		grid-template-columns: repeat(3, auto);
+		grid-template-rows: repeat(3, auto);
+		grid-template-areas: 
+		"l1 l1 m1 "
+		"l2 l2 m2 "
+		"l2 l2 m2 ";
+	}
+	
+	.contact-cont .c-form:nth-child(1) {
+		grid-area: l1;
+	}
+	
+	.contact-cont .c-form:nth-child(2) {
+		grid-area: l2;
+	}
+	
+	.contact-cont .hours-of:nth-child(3) {
+		grid-area: m1;
+	}
+	
+	.contact-cont .hours-of:nth-child(4) {
+		grid-area: m2;
+	}
 
-/* 
-	*/
+
+
+
+	
