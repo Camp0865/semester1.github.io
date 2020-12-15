@@ -74,6 +74,7 @@ body {
   max-width: 1200px;
 	background-color: white;
 	font-size: 15px;
+	margin: 0 auto;
 }
 
 /* NAVIAGTION SECTION */
@@ -126,6 +127,9 @@ ul li:nth-child(1) {
 }
 
 /* NAV SEARCH BAR */
+.search-bar {
+	display: flex;
+}
 
 input {
   padding: .6rem;
@@ -148,7 +152,6 @@ input {
 }
 
 .button {
-  float: left;
   width: 6%;
   background: #222;
   font-size: 1rem;
@@ -387,14 +390,14 @@ div .banner p {
 	margin-top: 2%;
 }
 
-.our-team {
+.cardt {
 	background-color: #ffe6ac;
 	margin: 2%;
 	font-size: 0.7rem;
 	line-height: 1rem;
 	padding-bottom: 4%;
 }
-.our-team p{
+.cardt p{
 	padding-left: 2%;
 	padding-right: 3%;
 	padding-top: 2%;
@@ -605,12 +608,12 @@ footer .footer-cont a {
 		nav ul li {
 		padding: 0.1%;
 		}
+		.search-bar {
+			display: flex;
+		}
 
 		input[name=search] {
-		float: left;
-		position: relative;
 		padding: 2% 0 2% 0;
-		margin-top: 1%;
 		margin-right: 0;
 		font-size: 0.76rem;
 		width: 68%;
@@ -692,7 +695,6 @@ footer .footer-cont a {
 		
 		}
 		
-		
 		.banner .btn {
 		background-color: #c78c06;
 		display: block;
@@ -714,44 +716,43 @@ footer .footer-cont a {
 		
 		.about-us-bg {
 			background-color: #ffe6ac;
-			padding-bottom: 2.5%;
+			padding-bottom: 1%;
 		}
 		
 		.about-img {
-			float: left;
-			width: 38%;
+			width: 50%;
+			height: 100%;
 			padding-left: 8%;
 			padding-top: .8%;
 			margin: 0;
 		}
 		
 		.about-us {
-			display: inline;
+			display: flex;
 			font-size: 0.7rem;
 			margin: 0;
-			padding-right: 10%;
+			padding-right: 3%;
 		
 		}
-		
+
+		.abouts {
+			font-size: .6rem;
+			line-height: normal;
+			margin-right: 3%;
+		}
+
 		.about-us p{
-			display: inline;
 			text-align: left;
-			margin-top: 2%;
-			margin-bottom: 1rem;
+			margin-bottom: 0;
+			margin-right: 3%;
 			padding-left: 0%; 
-			padding-right: 8%;
-		}
-		
-		.clearfix:after {
-			content: "";
-			display: table;
-			clear: both;
+			padding-right: 0%;
 		}
 		
 		.about-us :nth-child(3) {
-			padding-bottom: 3%;
-			padding-right: 8%;
-			margin-top: 5%;
+			padding-bottom: 0;
+			padding-right: 0%;
+			margin-top: 1%;
 		}
 		
 		.about {
@@ -759,9 +760,12 @@ footer .footer-cont a {
 			font-size: 2.2rem;
 			padding-left: 2%;
 			padding-top: 2%;
-			padding-bottom: 3%;
+			padding-bottom: 1.5%;
 		}
-		
+
+
+
+
 		/* OUR SERVICES GRID */
 		
 		
@@ -805,13 +809,13 @@ footer .footer-cont a {
 	font-weight: bold;
 	padding-top: 4%;
 	padding-bottom: 1%;
-	padding-left: 1%;
+	padding-left: 0.4%;
 }
 
 .card {
 	background-color: #ffe6ac;
 	padding-bottom: 0.3%;
-	margin: 2%;
+	margin: 1%;
 }
 
 .card .img1 { 
@@ -823,16 +827,18 @@ footer .footer-cont a {
 }
 
 .info p{
-	font-size: 0.5rem;
+	font-size: 0.6rem;
 	line-height: 1rem;
 	padding-left: 2%;
+	padding-right: 2.5%;
 }
 
 .infoh {
 	font-size: 1.8em;
 	font-weight: bold;
-	padding-top: 4%;
-	padding-bottom: 4%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 2.3%;
 }
 
 
@@ -841,9 +847,17 @@ footer .footer-cont a {
  text-align: center;
  display: block;
  color: white;
- width: 97%;
+ width: 95%;
  padding: 4% 0% 5% 5%;
  margin-top: 2%;
+ margin-right: 2%;
+}
+
+.card .info .fas {
+	padding-left: 3%;
+	padding-right: 0%;
+	font-size: 1.5rem;
+	margin: 0;
 }
 		
 
@@ -852,18 +866,19 @@ footer .footer-cont a {
 .info .mkt-btn  {
 	background-color: #222;
 	display: block;
+	padding: 4% 0% 5% 5%;
 	text-align: center;
 	color: white;
-	width: 97%;
-	padding: 0;
-	margin-top: 10%;
+	width: 95%;
+	margin-top: 2%;
+	margin-right: 3%;
 	cursor: pointer;
 }
 
 .info a {
 	text-decoration: none;
 	margin-top: 2%;
-	font-size: 1rem;
+	font-size: 0.95rem;
 	cursor: pointer;
 
 }
@@ -935,7 +950,7 @@ footer .footer-cont a {
 			width: 100%;
 		}
 		
-		.teamc {
+		.cardst {
 			display: grid;
 			width: 85%;
 			margin: 0 auto;
@@ -943,22 +958,22 @@ footer .footer-cont a {
 			grid-template-rows: repeat(2, auto);
 			grid-template-areas: 
 			"j1 j2 j2"
-			"b1 b2 b2 ";
+			"b1 b2 b2";
 		}
 		
-		.teamc .john-img:nth-child(1) {
+		.our-team-bg .cardt:nth-child(1) {
 			grid-area: j1;
 		}
 		
-		.teamc .john-doe:nth-child(2) {
+		.our-team-bg .cardt:nth-child(2) {
 			grid-area: j2;
 		}
 		
-		.teamc .bob-rite:nth-child(3) {
+		.our-team-bg .cardt:nth-child(1) {
 			grid-area: b1;
 		}
 		
-		.teamc .bob-img:nth-child(4) {
+		.our-team-bg .cardt:nth-child(4) {
 			grid-area: b2;
 		}
 		
