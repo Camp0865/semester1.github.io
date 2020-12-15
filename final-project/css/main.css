@@ -77,6 +77,13 @@ body {
 	margin: 0 auto;
 }
 
+
+a,
+a:link,
+a:visited {
+  color: #c78c06;
+}
+
 /* NAVIAGTION SECTION */
 
 nav {
@@ -383,7 +390,6 @@ div .banner p {
 	padding-bottom: 2%;
 	padding-left: 2%;
 }
-
 .our-team-bg {
 	background-color: white;
 	margin-bottom: 2%;
@@ -485,11 +491,6 @@ div .banner p {
 }
 
 /* HOURS OF OPERATION */
-
-.hours-of {
-	background-color: white;
-	width: 100%;
-}
 
 .hours {
 	font-size: 1.5rem;
@@ -610,13 +611,14 @@ footer .footer-cont a {
 		}
 		.search-bar {
 			display: flex;
+			padding: 1%;
 		}
 
 		input[name=search] {
-		padding: 2% 0 2% 0;
+		padding: 0;
 		margin-right: 0;
-		font-size: 0.76rem;
-		width: 68%;
+		font-size: 0.rem;
+		width: 60%;
 		background: #f1f1f1;
 		color: black;
 		text-align: left;
@@ -626,22 +628,22 @@ footer .footer-cont a {
 		}
 
 		.fa-search {
-		float: left;
 		color: #c78c06;
 		background-color: #222;
 		margin: 0;
-		font-size: 0.75rem;
-		padding-bottom: 4%;
+		font-size: 1rem;
+		padding-bottom: 0%;
 		}
 		
 		.button {
+		text-align: center;
+		overflow: visible;
+		margin: 0;;
 		width: auto;
-		padding-bottom: 6%;
-		padding-left: 3%;
-		border-left: none;
+		padding: 3%;
 		background: #222;
 		font-size: 0.75rem;
-		border: 1px solid #c78c06;
+		border: 0.8px solid #c78c06;
 		cursor: pointer;
 		}
 
@@ -894,7 +896,7 @@ footer .footer-cont a {
 			width:100%;
 			margin-top: 5%;
 			margin-bottom: 3%;
-			padding-bottom: 2%;
+			padding-bottom: 0.1%;
 		}
 		
 		.vision {
@@ -923,11 +925,12 @@ footer .footer-cont a {
 		
 		.our-vision .btn {
 			background: rgba(0, 0, 0, 0.6);
+			text-align: center;
 			display: block;
 			color: white;
 			border: 1px solid #c78c06;
-			width: 16%;
-			padding: 2% 2% 2.5% 2%;
+			width: 12%;
+			padding: 1.5% 1.5% 2% 1.5%;
 			margin: 1%;
 			margin-left: 10%;
 		 }
@@ -955,10 +958,10 @@ footer .footer-cont a {
 		.cardst {
 			display: grid;
 			grid-template-columns: repeat(4, minmax(0, 1fr));
-			width: 80%;
+			grid-template-rows: repeat(2, auto);
+			width: 90%;
 			margin: 0 auto;
 			grid-gap: 0;
-			grid-template-rows: repeat(2, auto);
 			grid-template-areas: 
 			"l1 l1 l2 l2"
 			"l4 l4 l3 l3";
@@ -998,31 +1001,32 @@ footer .footer-cont a {
 .cardt {
 	background-color: #ffe6ac;
 	margin: 0%;
-	font-size: 0.7rem;
+	font-size: 0.6rem;
 	padding-bottom: 0%;
+	padding-right: 1%;
 }
 .cardt p{
-	padding-left: 2%;
-	padding-right: 3%;
+	padding-left: 3%;
 	padding-top: 0%;
 }
 
 .john, .bob {
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	font-weight: bold;
-	padding: 2%;
+	padding: 3%;
 }
 
 .ceo {
-	padding-left: 2%;
+	padding-left: 3%;
 	font-size: 0.75rem;
 	font-weight: bold;
 }
 
 .deco {
-	border-bottom: 1.8px solid #BF8211;
-	width: 96%;
-	margin-left: 2%;
+	border-bottom: 1.5px solid #BF8211;
+	width: 94%;
+	margin-left: 3%;
+	margin-bottom: 3%;
 }
 .img2 {
 	margin-bottom: 0%;
@@ -1033,39 +1037,163 @@ footer .footer-cont a {
 		
 		/* CONTACT US SECTION */
 		
-		.contact {
-			margin-top: 5%;
-			margin-left: 6.5%;
-			font-size: 2.1rem;
+
+		.cardsc {
+			display: grid;
+			grid-template-columns: repeat(2, minmax(0, 1fr));
+			grid-template-rows: repeat(2, auto);
+			grid-gap: 10;
+			width: 90%;
+			margin: 0 auto;
+
+			grid-template-areas: 
+			"f1 f3"
+			"f2 f2";
 		}
 		
-			.contact-cont {
-				display: grid;
-				width: 90%;
-				margin: 0 auto;
-				grid-template-columns: repeat(3, auto);
-				grid-template-rows: repeat(3, auto);
-				grid-template-areas: 
-				"l1 l1 m1 "
-				"l2 l2 m2 "
-				"l2 l2 m2 ";
-			}
-			
-			.contact-cont .c-form:nth-child(1) {
-				grid-area: l1;
-			}
-			
-			.contact-cont .c-form:nth-child(2) {
-				grid-area: l2;
-			}
-			
-			.contact-cont .hours-of:nth-child(3) {
-				grid-area: m1;
-			}
-			
-			.contact-cont .hours-of:nth-child(4) {
-				grid-area: m2;
-			}
+		.cardsc .cardc:nth-child(1) {
+			grid-area: f1;
+		}
+		
+		.cardsc .cardc:nth-child(2) {
+			grid-area: f2;
+		}
+		
+		.cardsc .cardc:nth-child(3) {
+			grid-area: f3;
+		}
+
+
+
+.contact {
+	margin-top: 5%;
+	padding-left: 5.8%;
+	font-size: 2.2rem;
+	font-weight: bold;
+	margin-bottom: 5.3%;
+}
+
+.us {
+	font-size: 1.55rem;
+	font-weight: bold;
+	padding-left: 2%;
+	margin-bottom: 3%;
+}
+
+.c-form {
+	width: 100%;
+	font-size: 0.8rem;
+}
+
+.c-form input, textarea {
+	width: 95%;
+	margin-left: 2%;
+	padding: 1.2%;
+	background-color: white;
+	margin-bottom: 1.5%;
+}
+
+.c-form textarea {
+	padding: 10%;
+	margin-bottom: 2.5%
+}
+
+.c-form label {
+	display: block;
+	padding-left: 2%;
+	margin-bottom: 1%;
+	padding-top: 1%;
+}
+
+.send {
+	margin-left: 2%;
+	background-color: #222;
+	border: none;
+	color: #c78c06;
+	font-size: 1rem;
+	text-align: center;
+	padding: 0.8%;
+	padding-bottom: 1;
+	padding-top: 0.7;
+	margin-bottom: 4%;
+	cursor: pointer;
+}
+
+/* HOURS OF OPERATION */
+
+.hours {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-left: 0%;
+	margin-bottom: 2%;
+	margin-top: 3%;
+}
+
+table {
+	width: 95%;
+	margin-left: 0;
+	margin-bottom: 1.4%;
+}
+
+table, th, td {
+	border: 1px solid black;
+	font-size: 0.8rem;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+th {
+	background-color: #ffe6ac;
+	padding: 2%;
+}
+
+td {
+	padding: 2%;
+}
+
+/* LOCATION SECTION */
+
+.location {
+	background-color: white;
+	width: 100%;
+}
+
+.loc {
+	margin-top: 3%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+.map {
+	width: 95%;
+	margin: 2%;
+}
+
+/* FOOTER SECTION */
+
+footer {
+	background-color: #222;
+}
+
+.footer-cont {
+	color: #c78c06;
+	font-size: 0.6rem;
+	padding-top: 2%;
+}
+
+footer .footer-cont p {
+padding-left: 5%;
+padding-bottom: 1%;
+}
+
+footer .footer-cont a {
+	color: #c78c06;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
 		}
 
 
