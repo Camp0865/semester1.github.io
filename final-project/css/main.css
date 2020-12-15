@@ -403,7 +403,7 @@ div .banner p {
 	padding-top: 2%;
 }
 
-.john-img, .bob-img {
+.img1, .img2 {
 	width: 100%;
 	padding-bottom: 1.5%;
 }
@@ -946,36 +946,90 @@ footer .footer-cont a {
 		
 		/* OUR TEAMS SECITON */
 		
-		.john-img, .bob-img {
+		.img1, .img2 {
 			width: 100%;
+			padding: 0;
+			margin: 0;
 		}
 		
 		.cardst {
 			display: grid;
-			width: 85%;
+			grid-template-columns: repeat(4, minmax(0, 1fr));
+			width: 80%;
 			margin: 0 auto;
-			grid-template-columns: repeat(3, auto);
+			grid-gap: 0;
 			grid-template-rows: repeat(2, auto);
 			grid-template-areas: 
-			"j1 j2 j2"
-			"b1 b2 b2";
+			"l1 l1 l2 l2"
+			"l4 l4 l3 l3";
 		}
 		
-		.our-team-bg .cardt:nth-child(1) {
-			grid-area: j1;
+		.cardst .cardt:nth-child(1) {
+			grid-area: l1;
 		}
 		
-		.our-team-bg .cardt:nth-child(2) {
-			grid-area: j2;
+		.cardst .cardt:nth-child(2) {
+			grid-area: l2;
 		}
 		
-		.our-team-bg .cardt:nth-child(1) {
-			grid-area: b1;
+		.cardst .cardt:nth-child(3) {
+			grid-area: l3;
 		}
 		
-		.our-team-bg .cardt:nth-child(4) {
-			grid-area: b2;
+		.cardst .cardt:nth-child(4) {
+			grid-area: l4;
 		}
+
+
+.team {
+	font-size: 2rem;
+	font-weight: bold;
+	padding-bottom: 1%;
+	padding-left: 10.5%;
+	margin-top: 4%;
+}
+
+.our-team-bg {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}
+
+.cardt {
+	background-color: #ffe6ac;
+	margin: 0%;
+	font-size: 0.7rem;
+	padding-bottom: 0%;
+}
+.cardt p{
+	padding-left: 2%;
+	padding-right: 3%;
+	padding-top: 0%;
+}
+
+.john, .bob {
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding: 2%;
+}
+
+.ceo {
+	padding-left: 2%;
+	font-size: 0.75rem;
+	font-weight: bold;
+}
+
+.deco {
+	border-bottom: 1.8px solid #BF8211;
+	width: 96%;
+	margin-left: 2%;
+}
+.img2 {
+	margin-bottom: 0%;
+	margin-top: 0;
+}
+
+
 		
 		/* CONTACT US SECTION */
 		
@@ -985,9 +1039,9 @@ footer .footer-cont a {
 			font-size: 2.1rem;
 		}
 		
-			.teamc {
+			.contact-cont {
 				display: grid;
-				width: 85%;
+				width: 90%;
 				margin: 0 auto;
 				grid-template-columns: repeat(3, auto);
 				grid-template-rows: repeat(3, auto);
