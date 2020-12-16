@@ -406,6 +406,9 @@ div .banner p {
 	padding-bottom: 2%;
 	padding-left: 2%;
 }
+.bgwrap {
+	background-color: #ffe6ac;
+}
 .our-team-bg {
 	background-color: white;
 	margin-bottom: 2%;
@@ -414,10 +417,13 @@ div .banner p {
 
 .cardt {
 	background-color: #ffe6ac;
-	margin: 2%;
 	font-size: 0.7rem;
 	line-height: 1rem;
 	padding-bottom: 4%;
+}
+
+ .bobt {
+	margin-top: 2%;
 }
 .cardt p{
 	padding-left: 2%;
@@ -456,7 +462,7 @@ div .banner p {
 }
 
 .contact {
-	margin-top: 13%;
+	margin-top: 10%;
 	padding-left: 2%;
 	font-size: 2.2rem;
 	font-weight: bold;
@@ -762,7 +768,7 @@ footer .footer-cont a {
 		}
 
 		.abouts {
-			font-size: .6rem;
+			font-size: .65rem;
 			line-height: normal;
 			margin-right: 3%;
 		}
@@ -979,6 +985,7 @@ footer .footer-cont a {
 			margin: 0;
 		}
 		
+
 		.cardst {
 			display: grid;
 			grid-template-columns: repeat(4, minmax(0, 1fr));
