@@ -84,6 +84,10 @@ a:visited {
   color: #c78c06;
 }
 
+.wrapper {
+	background: white;
+}
+
 /* NAVIAGTION SECTION */
 
 nav {
@@ -99,7 +103,8 @@ nav {
 }
 
 .borderb {
-padding-top: 2%;
+padding: 0.1%;
+background-color: #222;
 }
 
 
@@ -129,7 +134,6 @@ nav ul li {
 
 .active {
 	background-color: #c78c06;
-  width: 99.9%;
 }
 
 .active a {
@@ -142,6 +146,7 @@ ul li:nth-child(1) {
 	text-align: left;
 	padding-top: 3%;
 	padding-bottom: 3;
+	margin-top: 2%;
 }
 
 /* NAV SEARCH BAR */
@@ -184,7 +189,7 @@ input {
 	background-image: url("../images/main-banner.jpg") ;
 	background-repeat: no-repeat;
 	background-position: center; 
-	background-position: 55% 55%;
+	background-position: 50% 55%;
   background-size: cover;
 	margin: 0;
 	padding-top: 8%;
@@ -585,6 +590,14 @@ footer .footer-cont a {
 
 	/* NAVIGATION SECTION */
 
+	.nav {
+		width: 100%;
+	}
+
+	.borderb {
+		padding: 0;
+	}
+
   nav .nav ul {
 		display: flex;
 		flex-wrap: wrap;
@@ -596,8 +609,9 @@ footer .footer-cont a {
 		ul li:nth-child(1) {
 		background-color: #222;
 		text-align: center;
-		padding-top: 3%;
+		padding-top: 0%;
 		padding-left: 9%;
+		padding-bottom: 3%;
 		}
 
 		.logo {
@@ -668,7 +682,6 @@ footer .footer-cont a {
 		.banner-bg {
 		background-image: url("../images/main-banner.jpg") ;
 		background-repeat: no-repeat;
-		background-position: 50% 40%;
 		background-size: cover;
 		margin: 0;
 		padding-top: 5%;
