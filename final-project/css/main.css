@@ -145,7 +145,7 @@ ul li:nth-child(1) {
 	background-color: #c78c06;
 	text-align: left;
 	padding-top: 3%;
-	padding-bottom: 3;
+	padding-bottom: 3%;
 	margin-top: 2%;
 }
 
@@ -642,13 +642,15 @@ footer .footer-cont a {
 		}
 		.search-bar {
 			display: flex;
-			padding: 1%;
+			padding-top: 0;
 		}
 
 		input[name=search] {
-		padding: 0;
+		padding: 1%;
+		padding-top: 1.5%;
+		padding-bottom: 1.5%;
 		margin-right: 0;
-		font-size: 0.rem;
+		font-size: 1rem;
 		width: 60%;
 		background: #f1f1f1;
 		color: black;
@@ -662,16 +664,16 @@ footer .footer-cont a {
 		color: #c78c06;
 		background-color: #222;
 		margin: 0;
-		font-size: 1rem;
+		font-size: 0.9rem;
 		padding-bottom: 0%;
+		padding: 0;
 		}
 		
 		.button {
 		text-align: center;
-		overflow: visible;
-		margin: 0;;
+		margin: 1%;
+		margin-left: 0;
 		width: auto;
-		padding: 3%;
 		background: #222;
 		font-size: 0.75rem;
 		border: 0.8px solid #c78c06;
@@ -731,8 +733,8 @@ footer .footer-cont a {
 		background-color: #c78c06;
 		display: block;
 		color: #222;
-		width: 27%;
-		padding: 2% 3% 3.5% 3%;
+		width: 20%;
+		padding: 2% 2% 2.5% 2%;
 		text-align: center;
 		}
 		
@@ -1073,7 +1075,6 @@ footer .footer-cont a {
 			display: grid;
 			grid-template-columns: repeat(2, minmax(0, 1fr));
 			grid-template-rows: repeat(2, auto);
-			grid-gap: 10;
 			width: 90%;
 			margin: 0 auto;
 
@@ -1144,8 +1145,8 @@ footer .footer-cont a {
 	font-size: 1rem;
 	text-align: center;
 	padding: 0.8%;
-	padding-bottom: 1;
-	padding-top: 0.7;
+	padding-bottom: 1%;
+	padding-top: 0.7%;
 	margin-bottom: 4%;
 	cursor: pointer;
 }
