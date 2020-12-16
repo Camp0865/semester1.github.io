@@ -98,10 +98,20 @@ nav {
 	width: 6rem;
 }
 
+.borderb {
+padding-top: 2%;
+}
+
+
+.header {
+	background-color: #222;
+}
+
 .nav {
 	width: 95%;
 	margin: 0 auto;
 	text-align: center;
+	background-color: #222;
 }
 
 
@@ -119,6 +129,7 @@ nav ul li {
 
 .active {
 	background-color: #c78c06;
+  width: 99.9%;
 }
 
 .active a {
@@ -130,7 +141,7 @@ ul li:nth-child(1) {
 	background-color: #c78c06;
 	text-align: left;
 	padding-top: 3%;
-	padding-bottom: 3%
+	padding-bottom: 3;
 }
 
 /* NAV SEARCH BAR */
